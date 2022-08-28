@@ -1,0 +1,138 @@
+.body{
+    overflow: hidden;
+}
+
+.event-conatainer{
+    width: 92vw;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    margin-top: 30px;
+   justify-content: center;
+    background-color: rgb(252, 245, 239);
+    border-radius: 10px;
+}
+img{
+    width: 40vw;
+    height: 40vh;
+    object-fit: contain;
+}
+.detail{
+    margin-left: 30px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    font-weight: 900;
+    font-size: 1rem;
+
+}
+.title{
+    
+   margin-left: 30px;
+   height: 40px;
+  width: 50vw;
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-weight: 900;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   font-size: 1.5rem;
+
+}
+.event-data{
+    width: 40vw;
+    display: flex;
+   justify-content: space-around
+}
+.category{
+    background-color: rgb(130, 143, 252);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px 5px;
+    height: 5vh;
+ 
+}
+.discription{
+    text-align: left;
+    margin: 10px auto;
+
+}
+.btns{
+    width: 50vw;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.edit,.dlt{
+     font-size: 30px;
+}
+.dlt:hover{
+    color: blue;
+    cursor: pointer;
+}
+.edit:hover{
+    color: blue;
+    cursor: pointer;
+}
+.modal-header{
+    background-color: black;
+}
+.btn-close{
+  background-color: white;
+}
+.event-conatainer{
+    background-color:wheat;
+    color: black;
+    border: 2px solid rgb(255, 221, 221);
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width: 1000px)  {
+.event-conatainer{
+    flex-direction: column;    
+    height: 75vh;
+    margin-right: 2px;
+}
+.photo{
+    width: 80vw;
+    top: 0px;
+    margin-top: -83px;
+    margin-left: 26px;
+}
+.title{
+ width: 80vw;
+ margin-right: 30px;
+ margin-top: -34px;
+
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    margin-bottom: 4vh;
+}
+.edit,.dlt{
+    margin-bottom: 30px;
+}
+.discription{
+    text-align: left;
+}
+.category{
+    margin-left: 10px;
+}
+.time{
+    margin-top: 8px;
+}
+.category{
+    height: 3.5vh;
+}
+}

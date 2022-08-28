@@ -1,0 +1,32 @@
+.date_container{
+	display: flex;
+	margin-left: 5vw;
+}
+.input_date{
+	margin-left: 1vw;
+}
+.search_btn{
+	margin-left: 10px;
+}
+.exel{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.col-md-6 input{
+	text-align:center;
+	width:100%;
+  }
+
+@media (max-width: 1000px){
+	
+	.date_container{
+		flex-direction: column;
+	}
+    .input_date{
+        margin: 5vw 0;
+    }
+    .search_btn{
+       align-self: center;
+    }
+}

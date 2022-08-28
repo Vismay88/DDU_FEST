@@ -1,0 +1,56 @@
+.register-page{  
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2)
+          ), url('https://cdn4.vectorstock.com/i/1000x1000/54/08/red-event-carpet-on-the-white-background-vector-17525408.jpg');
+    background-size: cover;
+}
+.register-title{
+    font-size: 45px;
+    font-weight: 900;
+}
+.register-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.register-form >label{
+    margin: 10px 0px;
+    font-weight:bolder;
+}
+
+.register-input{
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 300px;
+}
+.register-btn-rg{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(182, 115, 245);
+    border: none;
+    height: 30px;
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.login-btn-rg{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(105, 82, 240);
+    border: none;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 700;
+}

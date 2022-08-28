@@ -1,0 +1,64 @@
+.data_event{
+    width: 100%;
+}
+.event_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .event_title{
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+   width: 50vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+
+  }
+
+  @media(max-width:420px) {
+   .event_image{
+    width: 400px;
+   }
+}
+.row_name{
+  font-weight: 700;
+}
+
+
+
+.certi_title{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.certificate_container{
+  margin-top: 20px;
+}
+.certi_big_img{
+  height: 70vh;
+  width: 80vw;
+  align-self: center;
+}
